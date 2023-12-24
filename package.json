@@ -1,0 +1,25 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "GraphQL is a query language \r - Alternative to using a REST API using end-points. REST API is more of\r an architectural choice for fetching data and making requests. Whereas,\r graphQL is very much a query language with its own syntax and rules.\r - GraphQL still uses HTTP requests under the hood, similar to making requests using REST APIs. It's just that in graphQL we have a control \r on what data we want to fetch and mutate.\r - When your application scales it gets difficult to use REST APIs some of them are:\r        1) Over fetching\r        2) Under fetching\r - These two drawbacks can be easily solved using GraphQL.\r - GraphQL has a single endpoint. So whenever we send a query using graphql to the server its always going to be sent to probably one single end-point and then the server can handle it.\r - Inorder to retrieve data from the server, you need to specify the required fields. You can also nest queries into a single query\r - You can also perform mutations, you can ask the grapgQL Server to add new data/ update it / delete it similar to a POST/DELETE request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghnaaallam/graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghnaaallam/graphql/issues"
+  },
+  "homepage": "https://github.com/meghnaaallam/graphql#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1"
+  }
+}
